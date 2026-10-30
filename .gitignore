@@ -1,0 +1,24 @@
+# 第三方上游与大件
+KuGouMusicApi/
+node_modules/
+
+# 账号凭据与设备指纹
+config/auth.json
+config/state.json
+config/*.bak*
+
+# 运行产物
+runtime/
+*.log
+*.pid
+kugou-player-state.json
+
+# Python
+__pycache__/
+*.pyc
+
+.serviceEnvs/
+.venv/
+models/
+vendor/
+node_modules/

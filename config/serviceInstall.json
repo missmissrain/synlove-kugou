@@ -1,0 +1,11 @@
+{
+  "defaultService": "kugou",
+  "services": {
+    "kugou": {
+      "repo": "https://github.com/MakcRe/KuGouMusicApi.git",
+      "ref": "5d6c9f7b180279c9dd08bc6f7159de52a856d587",
+      "directory": "KuGouMusicApi",
+      "port": 3001
+    }
+  }
+}

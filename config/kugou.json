@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "apiBase": "http://127.0.0.1:3001",
+  "apiPort": 3001,
+  "apiHost": "127.0.0.1",
+  "apiDir": "KuGouMusicApi",
+  "logFile": "runtime/kugou-api.log",
+  "authFile": "config/auth.json",
+  "stateFile": "config/state.json",
+  "quality": "flac",
+  "minIntervalSeconds": 1.0,
+  "searchCacheSeconds": 60,
+  "urlCacheSeconds": 600,
+  "failureCooldownSeconds": 1800,
+  "dfidTtlSeconds": 86400,
+  "maxResults": 10,
+  "qualityFallback": [
+    "320",
+    "128"
+  ]
+}
